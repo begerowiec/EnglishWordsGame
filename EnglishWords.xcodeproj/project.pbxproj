@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		505015DE2CE3E7FA00ECBBDE /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 505015DD2CE3E7F100ECBBDE /* readme.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		505015822CE3912100ECBBDE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		5050156C2CE3911F00ECBBDE /* EnglishWords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnglishWords.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		505015812CE3912100ECBBDE /* EnglishWordsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnglishWordsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5050158B2CE3912100ECBBDE /* EnglishWordsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnglishWordsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		505015DD2CE3E7F100ECBBDE /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		505015632CE3911F00ECBBDE = {
 			isa = PBXGroup;
 			children = (
+				505015DD2CE3E7F100ECBBDE /* readme.md */,
 				5050156E2CE3911F00ECBBDE /* EnglishWords */,
 				505015842CE3912100ECBBDE /* EnglishWordsTests */,
 				5050158E2CE3912100ECBBDE /* EnglishWordsUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				505015DE2CE3E7FA00ECBBDE /* readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
