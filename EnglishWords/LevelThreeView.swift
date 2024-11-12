@@ -124,7 +124,7 @@ struct LevelThreeView: View {
             checkIfAllWordsCompleted()
 
             // Automatyczne przejście do następnego pytania po 3 sekundach
-            DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
                 if !allWordsCompleted {
                     nextQuestion()
                 }
